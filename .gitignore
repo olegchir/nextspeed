@@ -1,4 +1,11 @@
+#Common fiiles for Idea project
 /project/idea/project/.idea/workspace.xml
 /project/idea/project/.idea/dataSources.xml
 /project/idea/project/.idea/sqlDataSources.xml
-/project/idea/project/.idea/dynamic.xml 
+/project/idea/project/.idea/dynamic.xml
+
+#Maven dirs
+/target
+/bin
+/ru.nextspeed.organizer.*/target
+/ru.nextspeed.organizer.*/bin
