@@ -1,0 +1,4 @@
+All this code is distributed under the GPL v3 License with a small, but important addition.
+Author of the the Application (Oleg Chiruhin) may change license when he deems it important.
+For example, in the future this license can be changed to the BSD license.
+Contributors must admit that any commits are accepted only if author of a commit permits changing licensing of this commit by author of the Application.

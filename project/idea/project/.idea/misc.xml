@@ -3,6 +3,9 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="IdProvider" IDEtalkID="F72D725FB5225609A927A7014BC6ABDD" />
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
@@ -27,6 +30,7 @@
         <option value="$PROJECT_DIR$/../../../ru.nextspeed.ui/pom.xml" />
         <option value="$PROJECT_DIR$/../../../pom.xml" />
         <option value="$PROJECT_DIR$/../../../ru.nextspeed.organizer.ui/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../ru.nextspeed.organizer.package/pom.xml" />
       </list>
     </option>
   </component>

@@ -12,6 +12,7 @@
     <modules>
         <module>ru.nextspeed.organizer.ui</module>
         <module>ru.nextspeed.organizer.core</module>
+        <module>ru.nextspeed.organizer.package</module>
     </modules>
 
     <dependencies>

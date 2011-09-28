@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package">
+      <sourceFolder url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/src/test/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ui" />
+    <orderEntry type="library" name="Maven: org.mockito:mockito-all:1.8.4" level="project" />
+    <orderEntry type="module" module-name="core" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
+  </component>
+</module>
+
