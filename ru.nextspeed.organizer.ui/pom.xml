@@ -15,4 +15,55 @@
         <relativePath>../</relativePath>
     </parent>
 
+    <dependencies>
+        <dependency>
+            <groupId>${swt.groupId}</groupId>
+            <artifactId>${swt.artifactId}</artifactId>
+            <version>${swt.version}</version>
+        </dependency>
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <id>swt-mac</id>
+            <activation>
+                <os>
+                    <family>mac</family>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>swt</swt.groupId>
+                <swt.artifactId>swt-macosx</swt.artifactId>
+                <swt.version>3.0m7</swt.version>
+            </properties>
+        </profile>
+        <profile>
+            <id>swt-windows</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>swt</swt.groupId>
+                <swt.artifactId>swt-win32</swt.artifactId>
+                <swt.version>3.0m8</swt.version>
+            </properties>
+        </profile>
+        <profile>
+            <id>swt-linux</id>
+            <activation>
+                <os>
+                    <family>unix</family>
+                </os>
+            </activation>
+            <properties>
+                <swt.groupId>swt</swt.groupId>
+                <swt.artifactId>swt-linux-gtk</swt.artifactId>
+                <swt.version>3.0.1</swt.version>
+            </properties>
+        </profile>
+    </profiles>
+
+
 </project> 

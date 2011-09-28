@@ -1,5 +1,8 @@
 package ru.nextspeed.organizer.ui;
 
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+
 /**
  * Created by IntelliJ IDEA.
  * User: olegchir
@@ -9,6 +12,13 @@ package ru.nextspeed.organizer.ui;
  */
 public class EntryPoint {
     public static void main(String[] args) {
-        System.out.println("Hello, Nextspeed!");
+        Display display = new Display();
+        Shell shell = new Shell(display);
+        shell.open();
+        while (!shell.isDisposed()) {
+            if (!display.readAndDispatch())
+                display.sleep();
+        }
+        display.dispose();
     }
 }

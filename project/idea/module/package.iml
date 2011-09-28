@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/target/classes" />
     <output-test url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/target/test-classes" />
-    <exclude-output />
     <content url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package">
       <sourceFolder url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../ru.nextspeed.organizer.package/src/main/resources" isTestSource="false" />
@@ -14,6 +13,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ui" />
+    <orderEntry type="library" name="Maven: swt:swt-linux-gtk:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.mockito:mockito-all:1.8.4" level="project" />
     <orderEntry type="module" module-name="core" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.9" level="project" />
