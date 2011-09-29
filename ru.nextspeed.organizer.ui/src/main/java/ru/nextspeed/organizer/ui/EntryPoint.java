@@ -1,6 +1,12 @@
 package ru.nextspeed.organizer.ui;
 
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.events.SelectionListener;
 import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Menu;
+import org.eclipse.swt.widgets.MenuItem;
 import org.eclipse.swt.widgets.Shell;
 
 /**
@@ -11,14 +17,10 @@ import org.eclipse.swt.widgets.Shell;
  * To change this template use File | Settings | File Templates.
  */
 public class EntryPoint {
+
     public static void main(String[] args) {
-        Display display = new Display();
-        Shell shell = new Shell(display);
-        shell.open();
-        while (!shell.isDisposed()) {
-            if (!display.readAndDispatch())
-                display.sleep();
-        }
-        display.dispose();
+        EntryRunner runner = new EntryRunner();
+        runner.run();
     }
+
 }
