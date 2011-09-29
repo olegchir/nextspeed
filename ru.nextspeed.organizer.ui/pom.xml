@@ -21,6 +21,11 @@
             <artifactId>${swt.artifactId}</artifactId>
             <version>${swt.version}</version>
         </dependency>
+        <dependency>
+            <groupId>swt</groupId>
+            <artifactId>forms</artifactId>
+            <version>3.0m8</version>
+        </dependency>
     </dependencies>
 
     <profiles>
@@ -57,6 +62,13 @@
                     <family>unix</family>
                 </os>
             </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>swt</groupId>
+                    <artifactId>swt-linux-gtk-pi</artifactId>
+                    <version>3.0.1</version>
+                </dependency>
+            </dependencies>
             <properties>
                 <swt.groupId>swt</swt.groupId>
                 <swt.artifactId>swt-linux-gtk</swt.artifactId>
