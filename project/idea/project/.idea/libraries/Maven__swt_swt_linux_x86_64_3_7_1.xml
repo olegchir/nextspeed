@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: swt:swt-linux-x86-64:3.7.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../ru.nextspeed.organizer.ui/lib/swt-3.7.1-gtk-linux-x86_64/swt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
