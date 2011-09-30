@@ -1,13 +1,6 @@
 package ru.nextspeed.organizer.ui;
 
-import org.eclipse.swt.SWT;
-import org.eclipse.swt.events.SelectionAdapter;
-import org.eclipse.swt.events.SelectionEvent;
-import org.eclipse.swt.events.SelectionListener;
-import org.eclipse.swt.widgets.Display;
-import org.eclipse.swt.widgets.Menu;
-import org.eclipse.swt.widgets.MenuItem;
-import org.eclipse.swt.widgets.Shell;
+import ru.nextspeed.organizer.ui.basics.EntryRunner;
 
 /**
  * Created by IntelliJ IDEA.
